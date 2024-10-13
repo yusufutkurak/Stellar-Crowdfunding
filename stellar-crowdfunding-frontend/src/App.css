@@ -1,0 +1,122 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  margin-bottom: 100px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #6200ea;
+}
+
+.container {
+  min-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1{
+  margin-top: 400px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+pre {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  outline: none;
+  background-color: #444;
+}
+
+hr {
+  border: none;
+  background-color: #444;
+  height: 1px;
+  margin: 20px 0;
+}
